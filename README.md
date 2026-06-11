@@ -10,8 +10,10 @@
 
 ## 📺 核心效果演示 (Dashboard)
 
-![img.png](img.png)
-![img_1.png](img_1.png)
+<p align="center">
+  <img src="img.png" width="48%" />
+  <img src="img_1.png" width="48%" />
+</p>
 
 - **左侧控制面板**：对接分布式日志流（Mock Loki API），动态关联底层 RAG 召回的代码上下文。
 - **右侧专家面板**：多模型协同推理，流式（Streaming）输出可直接上线的架构级修复方案。

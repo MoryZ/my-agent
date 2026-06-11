@@ -3,7 +3,7 @@ import requests
 
 # 1. 配置参数
 OLLAMA_URL = "http://localhost:11434/api/generate"
-CLASSIFY_MODEL = "gemma4:26b-mxfp4"  # 快速分类
+CLASSIFY_MODEL = "gemma3:4b"  # 快速分类
 CODER_MODEL = "qwen2.5-coder:14b"  # 核心诊断
 
 # 模拟从 Loki 拉取到的一条待处理日志
